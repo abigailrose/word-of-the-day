@@ -11,7 +11,6 @@ word_list = words.readlines()
 index = random.randint(0, len(word_list))
 
 print("\nThe word of the day is: {}".format(word_list[index]))
-#print(dictionary.meaning(word_list[index]))
 
 old_stdout = sys.stdout # backup current stdout
 sys.stdout = open(os.devnull, "w")
